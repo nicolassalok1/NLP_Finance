@@ -7,9 +7,9 @@
 $ErrorActionPreference = "Stop"
 
 conda deactivate
-conda env remove --name FinTech_NLP
-conda create --name FinTech_NLP python=3.11
-conda activate FinTech_NLP
+conda env remove --name NLP_Finance
+conda create --name NLP_Finance python=3.11
+conda activate NLP_Finance
 
 python.exe -m pip install --upgrade pip
 
